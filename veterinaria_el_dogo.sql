@@ -42,15 +42,15 @@ CREATE TABLE IF NOT EXISTS `clientes` (
 --
 
 INSERT INTO `clientes` (`id`, `nombre`, `direccion`, `telefono`, `activo`) VALUES
-(1, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(2, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(3, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(4, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(5, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(6, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(7, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 0),
-(8, 'Alejo ', 'Hipolito Yrigoyen 2347', '3476636645', 1),
-(9, 'Abigail', 'Pasaje Blas Parera 919', '3416651918', 1);
+(1, 'Candela Fernández', 'Pasco 1064', '3415557137', 0),
+(2, 'Lautaro Altamirano', 'Gutemberg 837', '3476201224', 0),
+(3, 'Marcos Specogna',  'Avenida San Martin 2301', '3415446680', 0),
+(4, 'Laureano Olmos',  'Avenida Dorrego 1468', '3416171240', 0),
+(5, 'Fausto Moreno ',  'Manuel Belgrano 152', '3415053983', 0),
+(6, 'Candela Fernández',  'Pasco 1064', '3415557137', 0),
+(7, 'Lautaro Altamirano ',  'Gutemberg 837', '3476201224', 0),
+(8,  'Marcos Specogna',  'Avenida San Martin 2301', '3415446680', 1),
+(9, 'Fausto Moreno', 'Manuel Belgrano 152', '3415053983', 1);
 
 -- --------------------------------------------------------
 
