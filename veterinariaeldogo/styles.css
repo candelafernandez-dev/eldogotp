@@ -1,0 +1,31 @@
+/* styles.css */
+/* Che, acá metemos los estilos custom que complementan al Tailwind CSS, para que la cosa quede chiche. */
+
+:root {
+    --color-primary: #38aefdff;
+    --color-secondary: #053f96ff;
+    --color-background: #F3F4F6;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-background);
+}
+.header-gradient {
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+}
+.table-container {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+/* Ocultamos la barra de scroll para un look más limpio */
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+.table-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
